@@ -5,3 +5,4 @@ for i in range(1,11):
     euler += num
 print(euler)
 
+math.sqrt()
