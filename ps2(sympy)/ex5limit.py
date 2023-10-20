@@ -8,4 +8,6 @@ print('limit at infinity',sp.limit(f,x,'-oo'))
 #two horizontal asintotes exist at 3/4 on both sides of the limit
 rightasint = sp.limit(f,x,'+oo')
 leftasint = sp.limit(f,x,'-oo')
-sp.plot(f,rightasint)
+sp.plot(f,rightasint) # you can plot many functions
+
+# slant asintotes are impossible as a horizontal asintote exists
