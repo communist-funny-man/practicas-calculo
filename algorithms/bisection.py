@@ -11,7 +11,7 @@ for i in range(maxit):
     x=(a+b)/2
     if (f(a)*f(x)<0): ## selects one of the
         b=x
-    else:
+    else: ## implementado de esta forma no es necesario comprobar el signo negativo de x 
         a=x
 print('Solution: ',x)
 print(f(x))

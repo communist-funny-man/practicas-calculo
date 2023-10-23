@@ -1,5 +1,5 @@
 import sympy as sp
-
+import numpy as np
 t=sp.S('t')
 f=(t**1+1)/t-2
 rasin = sp.plot(sp.limit(f,t,'+oo'))
