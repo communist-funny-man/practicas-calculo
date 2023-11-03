@@ -30,3 +30,4 @@ return P
 #computing the MCLAURIN POLYNOMIAL AUTOMATIZED
 P2 = TaylorPolynomial(f,2,0)
 print(P2)
+## this is incomplete pull the rest of the code from the ipbny and add it
